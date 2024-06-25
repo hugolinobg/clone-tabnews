@@ -1,0 +1,22 @@
+{
+  "name": "clone-tabnews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "run": "node --trace-warnings --watch src/index.js",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -9,8 +9,8 @@
   },
   "scripts": {
     "dev": "next dev",
-    "run": "node --trace-warnings --watch src/index.js",
-    "start": "node app.js"
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -18,5 +18,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "3.3.2"
   }
 }
